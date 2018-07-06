@@ -1,0 +1,305 @@
+/*-------------------------------------------*/
+/*Small phones: from 0 to 480px*/
+/*-------------------------------------------*/
+
+@media only screen and (min-width: 0px) {
+    .review-img-big {
+        display: none;
+    }
+    .product-wide{
+        display: none;
+    }
+    .main-nav{
+        display: none;
+    }
+
+/*-------------------------------------------*/
+/*Small phones to small tablets: from 481 to 767px*/
+/*-------------------------------------------*/
+
+@media only screen and (min-width: 481px) {
+    .top-full{
+        height: 1100px;
+    }
+    .header{
+        height: 60%;
+        background-size: 75%;
+        
+    }
+    .logo-word{
+        font-size: 40px;
+        vertical-align: 12px;
+    }
+    .menu-btn{
+        font-size: 50px;
+    }
+    .logo-center{
+        width: 75%;
+        margin-left: 4em;
+        margin-top: 200px;
+    }
+    .tag-line{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .desc{
+        font-size: 17px;
+    }
+    .find-out{
+        font-size: 22px;
+    }
+    .review blockquote{
+        font-size: 33px;
+    }
+    .catalog a:link,
+    .catalog a:visited{
+        font-size: 18px;
+    }
+    .contact h2{
+        font-size: 30px;
+    }
+    .contact p{
+        font-size: 17px;
+    }
+    .contact button{
+        font-size: 20px;
+    }
+    input[type = "email"]{
+        font-size: 20px;
+    }
+    .footer-home{
+        font-size: 15px;
+    }
+    .sos-med{
+        font-size: 25px;
+    }
+}
+
+
+/*-------------------------------------------*/
+/*Small tablets to big tablets: from 768 to 1023px*/
+/*-------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    .header{
+        height: 70%;
+    }
+    .top-full{
+        height: 1300px;
+    }
+    .logo-center{
+        margin-left: 6em;
+    }
+    .tag-line{
+        font-size: 40px;
+    }
+    .desc{
+        font-size: 20px;
+    }
+    .find-out{
+        font-size: 22px;
+    }
+    .review blockquote{
+        font-size: 40px;
+    }
+    .review-img{
+        left: 10%;
+        bottom: -4.7%;
+    }
+    .review a:link,
+    .review a:visited{
+        right: 60px;
+        font-size: 45px;
+        bottom: -40px;
+    }
+    .catalog a:link,
+    .catalog a:visited{
+        font-size: 22px;
+    }
+    .contact h2{
+        font-size: 35px;
+    }
+    .contact p{
+        font-size: 20px;
+        width: 90%;
+        line-height: 25px;
+    }
+    .contact button{
+        font-size: 22px;
+    }
+    .footer-home{
+        font-size: 20px;
+    }
+    .sos-med{
+        font-size: 33px;
+    }
+    
+}
+
+
+/*-------------------------------------------*/
+/*Big tablets: from 1023 to 1200px*/
+/*-------------------------------------------*/
+
+@media only screen and (min-width: 1023px){
+    .main-nav{
+        display: inline-block;
+    }
+    .top-full{
+        height: 100vh;
+    }
+    .header{
+        background-position: 150px 70px;
+        background-size: 35%;
+        height: 100vh;
+        
+    }
+    .top{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    .logo-word{
+        font-size: 23px;
+        
+    }
+    .menu-btn{
+        display: none;
+    }
+    .logo-center{
+        width: 38%;
+        margin-left: 9.4em;
+        margin-top: 90px;
+    }
+    .tag-line{
+        text-align: left;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        line-height: 25px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+    .desc{
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 71%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .stripe{
+        border: 2px solid #bababa;
+        width: 5%;
+        margin-left: 10%;
+        position: absolute;
+        bottom: 4%;
+    }
+    .stripe-next{
+        position: absolute;
+        border: 2px solid #606060;
+        width: 10%;
+        margin-left: 15%;
+        bottom: 4%;
+    }
+    .find-out{
+        position: absolute;
+        top: 70%;
+        left: 75%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px 8px 8px 8px;
+    }
+    .arrow{
+        vertical-align: -5px;
+        font-size: 20px;
+    }
+    .review{
+        height: 80vh;
+    }
+    .review blockquote{
+        font-size: 55px;
+    }
+    .review cite{
+        font-size: 25px;
+    }
+    .review-img{
+        display: none;
+    }
+    .review-img-big{
+        display: block;
+        height: 116vh;
+        position: absolute;
+        right: 80px;
+        top: -22%;
+    }
+    .product-mobile{
+        display: none;
+    }
+    .product-wide{
+        display: inline-block;
+        float: left;
+    }
+    .catalog img{
+        width: 30%;
+        margin-left: 0px;
+    }
+    .product-1 img{
+        margin-left: 7%;
+    }
+    .product-2 img{
+        margin-top: -8px;
+    }
+    .product-3 img{
+        width: 27%;
+    }
+    .catalog a:link,
+    .catalog a:visited{
+        font-size: 12px;
+        padding: 8px 10px 8px 20px;
+    }
+    .our-work-arrow{
+        font-size: 20px;
+        vertical-align: -5px;
+    }
+    .contact h2{
+        padding-top: 120px;
+        display: block;
+        clear: both;
+        font-size: 25px;
+    }
+    .contact p{
+        font-size: 15px;
+        width: 80%;
+        font-weight: 400;
+    }
+    .contact input{
+        width: 60%;
+        border: 1px solid black;
+    }
+    .contact button{
+        font-size: 15px;
+    }
+    .footer-home{
+        font-size: 13px;
+    }
+    .footer-table{
+        table-layout:auto;
+        width: 70%;
+    }
+    .sos-med{
+        margin-left: 5%;
+        font-size: 25px;
+    }
+    .footer-home p{
+        margin-left: 5%;
+    }
+}
