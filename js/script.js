@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     /* For the sticky navigation */
-    $('.js--section-features').waypoint(function(direction) {
+    $('.review').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
@@ -64,9 +64,9 @@ $(document).ready(function() {
     
     /* Mobile navigation */
     
-    $('.js--nav-icon').click(function() {
+    $('.menu-btn').click(function() {
         var nav = $('.js--main-nav');
-        var icon = $('.js--nav-icon i');
+        var icon = $('.menu-btn ion-icon');
         nav.slideToggle(200);
         
         if (icon.hasClass('ion-navicon-round')) {

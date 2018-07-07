@@ -37,6 +37,7 @@ body {
     color: #12B27D;
     font-size: 25px;
     vertical-align: 10px;
+    z-index: 99;
 }
 
 .logo-word a:hover,
@@ -51,25 +52,54 @@ body {
     display: inline-block;
     font-size: 35px;
     font-weight: 300;
+    color: black;
+    z-index: 9999;
 }
 
 .top{
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .main-nav{
-    list-style: none;
-    display: inline-block;
-    position: absolute;
-    right: 40px;
-    font-size: 15px;
-    top: 25px;
+        display: none;
+}
+        
+.main-nav {
+        position: fixed;
+        padding-left: 40px;
+        top: 48px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.98);
+    }
+.main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+.main-nav a:link,
+.main-nav a:visited{
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 0.4s, border-bottom 0.4s;
+    -webkit-transition: color 0.4s, border-bottom 0.2s;
+    transition: color 0.4s, border-bottom 0.2s;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
 }
 
-.main-nav li{
-    display: inline-block;
-    margin-right: 40px;
+.main-nav a:hover,
+.main-nav a:active{
+    color: #12B27D;
+    border-bottom: 1px solid #12B27D;
 }
 
 .main-nav ion-icon{
@@ -79,7 +109,7 @@ body {
 .sticky {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     -webkit-box-shadow: 0 2px 2px #efefef;
@@ -87,12 +117,8 @@ body {
     z-index: 9999;
 }
 
-.sticky .main-nav {margin-top: 20px;}
-
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited{
-    padding: 17px 0px;
-    color: #555;
+.sticky .logo-word{
+    margin-top: 10px;
 }
 
 .logo-center{
